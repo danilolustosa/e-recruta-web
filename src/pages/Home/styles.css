@@ -13,16 +13,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
+}
 
 #page-home .logo {
     position: absolute;
-    width: 107px;
-    height: 93px;
+    width: 200px;
+    height: 43.73px;
     left: 175px;
     top: 52px;
     mix-blend-mode: normal;
-    opacity: 0.8;
 }
 
 #page-home .content main h1 {

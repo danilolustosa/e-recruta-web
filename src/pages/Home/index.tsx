@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiLogIn } from 'react-icons/fi'
 import './styles.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
                     <h1>R&S em TI</h1>
                     <p>Ajudando recrutadores a encontrarem os melhores candidatos</p>
 
-                    <Link to="/create-point">
+                    <Link to="/jobs">
                         <span>
                             <FiLogIn />
                         </span>

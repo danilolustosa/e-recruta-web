@@ -1,0 +1,191 @@
+/* Modelo padrão da página */
+
+#page-jobs {
+    width: 100%;
+    max-width: 95%;
+    background: #F0F0F5;
+
+    margin: 0 auto;
+}
+
+#page-jobs header {
+    margin-top: 48px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-jobs header a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+}
+
+#page-jobs header a svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+}
+
+#page-jobs .main {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+#page-jobs .frame {
+    width: 840px;
+    min-height: 940px;
+    background: #FFFFFF;
+    border-radius: 15px;    
+    padding: 72px;
+    margin-bottom: 60px;
+}
+
+#page-jobs .frame .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-jobs .frame a {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#page-jobs .frame a svg {
+    width: 32px;
+    height: 32px;
+    color: #818181;
+}
+
+#page-jobs main .grid {
+    padding-top: 33px;
+}
+
+#page-jobs main .grid .row {
+    padding-top: 27px;
+}
+
+#page-jobs main .grid .line{
+    width: 100%;
+    height: 1px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+    padding-top: 11px;
+}
+
+#page-jobs main .grid .jobTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+
+#page-jobs main .grid svg {
+    width: 24px;
+    height: 24px;
+    color: #818181;
+}
+
+#page-jobs main .grid .gridSection1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-jobs main .grid .gridSection1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#page-jobs main .grid .gridTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-jobs main .grid .items-level {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  #page-jobs main .grid .items-level li {
+    width: 88px;
+    height: 24px;    
+    
+    background: #7159C1;
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    
+    text-align: center;
+  }
+  
+  #page-jobs main .grid .items-level li span {
+    flex: 1;
+    
+  
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+#page-jobs main .grid .gridSection2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-jobs main .grid .gridSection2 .left {
+    display: flex;
+    flex-direction: column;
+}
+
+#page-jobs main .grid .gridSection2 .left div {
+    padding-top: 6px;
+}
+
+#page-jobs main .grid .gridSection2 .left .quantity_candidates {
+    font-size: 14px;
+}
+
+#page-jobs main .grid .gridSection2 .left .short_line {
+    width: 70px;
+    height: 1px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+    padding-top: 11px;
+}
+
+#page-jobs main .grid .gridSection2 .left .time_duration {
+    font-size: 14px;
+    color: #3E8F46;
+}
+
+#page-jobs main .grid .gridSection2 .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#page-jobs main .grid .gridSection2 .right div {
+    text-align: right;
+}
+
+#page-jobs main .grid .gridSection2 .right .salary {
+    font-weight: bold;
+    color: #4B3B82;
+    padding-bottom: 14px;
+}
