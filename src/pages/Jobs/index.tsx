@@ -21,7 +21,7 @@ const Jobs = () => {
                 <div className="frame">
                     <div className="title">
                         <h1>Oportunidades</h1>
-                        <Link to="/">
+                        <Link to="/jobform">
                             <FiPlusSquare />
                         </Link>
                     </div>                    
