@@ -114,6 +114,18 @@
     align-items: center;
 }
 
+#page-jobs main .grid .gridTitle a:hover {
+    text-decoration: underline;
+}
+
+#page-jobs main .grid .gridTitle a:link {
+    text-decoration: none;
+}
+
+#page-jobs main .grid .gridTitle a:active {
+    text-decoration: none;
+}
+
 #page-jobs main .grid .items-level {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

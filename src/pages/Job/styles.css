@@ -1,0 +1,337 @@
+/* Modelo padrão da página */
+
+#page-job {
+    width: 100%;
+    max-width: 95%;
+    background: #F0F0F5;
+
+    margin: 0 auto;
+}
+
+#page-job header {
+    margin-top: 48px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-job header a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+}
+
+#page-job header a svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+}
+
+#page-job .main {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+#page-job .frame {
+    width: 840px;
+    min-height: 940px;
+    background: #FFFFFF;
+    border-radius: 15px;    
+    padding: 72px;
+    margin-bottom: 60px;
+}
+
+#page-job .frame .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-job .frame a .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#page-job .frame a svg {
+    width: 32px;
+    height: 32px;
+    color: #818181;
+}
+
+/* Fim do Modelo padrão da página */
+
+/* Frame da divisão dos conteúdos (Oportunidade / Candidatos) */
+
+#page-job .frame .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: stretch;
+    margin-top: 41px;    
+}
+
+#page-job .frame .job {
+    flex: 1;
+    min-width: 400px;
+    border-width: 0px 1px 0px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+}
+
+#page-job .frame .candidate {
+    flex: 1;
+    text-align: left;
+    /*margin-left: 31px;*/
+}
+
+#page-job .frame .candidateContent {
+    margin-left: 31px;
+    margin-top: 20px;
+}
+
+#page-job .frame .jobContent {
+    margin-top: 20px;
+}
+
+/* Fim do Frame da divisão dos conteúdos (Oportunidade / Candidatos) */
+
+
+#page-job .frame main a:hover {
+    text-decoration: underline;
+}
+
+#page-job .frame main a:link {
+    text-decoration: none;
+}
+
+#page-job .frame main a:active {
+    text-decoration: none;
+}
+
+
+/* Oportunidade */
+
+#page-job main .jobTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+
+#page-job main svg {
+    width: 24px;
+    height: 24px;
+    color: #818181;
+}
+
+#page-job main .gridSection1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#page-job main .gridSection1 .level_time_duration {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#page-job main .gridSection1 .time_duration {
+    display: flex;
+    font-size: 14px;
+    color: #3E8F46;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#page-job main .items-level {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    list-style: none;
+}
+  
+#page-job main .items-level li {
+    width: 88px;
+    height: 24px;    
+    
+    background: #7159C1;
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    
+    text-align: center;
+}
+  
+#page-job main .items-level li span {
+    flex: 1;
+    
+  
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#page-job main .company_location {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+#page-job main .more_informations {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-job main .more_informations span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 9px;
+
+    color: #818181;
+}
+
+#page-job main .more_informations .type {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-width: 1px 1px 1px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+    padding-top: 11px;
+    padding-bottom: 14px;
+}
+
+
+#page-job main .more_informations .position {    
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+    border-width: 1px 1px 1px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+}
+
+#page-job main .more_informations .salary {
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+    border-width: 1px 0px 1px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+}
+
+#page-job main .jobdescription {
+    padding-top: 28px;
+    padding-right: 28px;
+    padding-bottom: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #818181;
+}
+
+#page-job main .candidateTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-job main .candidateTitle a {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#page-job main .candidateTitle svg {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#page-job main .candidate .quantity {
+    margin-top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;    
+
+    color: #818181;
+}
+
+#page-job main .candidate .grid {
+    margin-top: 43px;
+}
+
+#page-job main .candidate .grid .row {
+    margin-top: 23px;
+}
+
+#page-job main .candidate .grid .candidateName {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #4B3B82;
+}
+
+#page-job main .candidate .grid .candidateLocation {
+    margin-top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #818181;
+}
+
+#page-job main .candidate .grid .candidateTool {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#page-job main .candidate .grid .candidateTool .icons img {
+    padding-left: 12px;
+}
+
+#page-job main .candidate .grid .line{
+    width: 100%;
+    height: 1px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #C4C4C4;
+    border-style: solid;
+    padding-top: 11px;
+}
+
+ 

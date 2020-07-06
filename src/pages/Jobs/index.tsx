@@ -32,7 +32,9 @@ const Jobs = () => {
                         <div className="row">
                             <section className="gridSection1">
                                 <div className="gridTitle">
-                                    <span className="jobTitle">Desenvolvedor Android com .NET</span>
+                                    <Link to="/job">
+                                        <span className="jobTitle">Desenvolvedor Android com .NET</span>
+                                    </Link>
                                     <ul className="items-level">
                                         <li><span>Pleno</span></li>
                                     </ul>
@@ -63,7 +65,9 @@ const Jobs = () => {
                         <div className="row">
                             <section className="gridSection1">
                                 <div className="gridTitle">
-                                    <span className="jobTitle">Desenvolvedor Android com .NET</span>
+                                    <Link to="/job">
+                                        <span className="jobTitle">Desenvolvedor Android com .NET</span>
+                                    </Link>
                                     <ul className="items-level">
                                         <li><span>Pleno</span></li>
                                     </ul>

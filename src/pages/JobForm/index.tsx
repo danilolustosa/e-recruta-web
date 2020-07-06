@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FiArrowLeft, FiEdit, FiPlusSquare } from 'react-icons/fi'
+import { FiArrowLeft } from 'react-icons/fi'
 import './styles.css';
 import logo from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
@@ -18,8 +18,13 @@ const JobForm = () => {
         const alreadySelected = selectedItems.findIndex(i => i === item);
 
         if (alreadySelected >= 0){
-            const filteredItems = selectedItems.filter(i => i !== item);
-            setSelectedItems(filteredItems);
+            const nenhumItem = selectedItems.filter(i => i === "N");
+
+            if (nenhumItem.length === 0)
+            {
+                const filteredItems = selectedItems.filter(i => i !== item);
+                setSelectedItems(filteredItems);    
+            }
         }
         else
         {
