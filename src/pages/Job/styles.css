@@ -101,16 +101,20 @@
 /* Fim do Frame da divisão dos conteúdos (Oportunidade / Candidatos) */
 
 
-#page-job .frame main a:hover {
-    text-decoration: underline;
-}
-
-#page-job .frame main a:link {
+#page-job .frame a:hover {
     text-decoration: none;
 }
 
-#page-job .frame main a:active {
+#page-job .frame a:link {
     text-decoration: none;
+}
+
+#page-job .frame a:active {
+    text-decoration: none;
+}
+
+#page-job .frame a:visited {
+    color: var(--title-color);
 }
 
 

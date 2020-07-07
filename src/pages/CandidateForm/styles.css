@@ -1,0 +1,345 @@
+/* Modelo padrão da página */
+
+#page-candidateform {
+    width: 100%;
+    max-width: 95%;
+    background: #F0F0F5;
+
+    margin: 0 auto;
+}
+
+#page-candidateform header {
+    margin-top: 48px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-candidateform header a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+}
+
+#page-candidateform header a svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+}
+
+#page-candidateform .main {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+#page-candidateform .frame {
+    width: 840px;
+    min-height: 940px;
+    background: #FFFFFF;
+    border-radius: 15px;    
+    padding: 72px;
+    margin-bottom: 60px;
+}
+
+#page-candidateform .frame .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-candidateform .frame a .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#page-candidateform .frame a svg {
+    width: 32px;
+    height: 32px;
+    color: #818181;
+}
+
+/* Modelo padrão da página */
+
+#page-candidateform .frame .toggle{
+    width: 62px;
+    height: 33px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#page-candidateform .frame form{
+    padding-top: 18px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#page-candidateform .frame form fieldset{
+    min-inline-size: auto;
+    border: 0;
+    margin-top: 44px;
+}
+
+#page-candidateform .frame form legend{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#page-candidateform .frame form .field-group{
+    flex: 1;
+    display: flex;
+}
+
+#page-candidateform .frame form .field {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+#page-candidateform .frame form .field label:not(#file-1) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #818181;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+#page-candidateform .frame form .required {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+
+    color: #AD1616;
+}
+
+#page-candidateform .frame form input[type=text] {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 5px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+#page-candidateform .frame textarea {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 5px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+    min-height: 251px;
+}
+
+#page-candidateform .frame form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+#page-candidateform .frame form #linkedin {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 5px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+    background-image: url('https://i.ya-webdesign.com/images/linkedin-icon-png-7.png');
+    background-repeat: no-repeat;    
+    background-position: 10px ;
+    background-size: 30px 30px;
+    outline: 0;
+
+    padding: 17px;
+    padding-left: 50px;
+    
+}
+
+#page-candidateform .frame form .curriculo {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 5px;
+    border: 0;
+
+    font-size: 16px;
+    color: #6C6C80;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/feather-2/24/upload-cloud-512.png');
+    background-repeat: no-repeat;    
+    background-position: 10px ;
+    background-size: 30px 30px;
+    outline: 0;
+
+}
+
+#page-candidateform .frame form .stars {  
+    display: flex;    
+    align-items: center;
+    height: 100%;
+    
+}
+
+#page-candidateform .frame form .stars img {      
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#page-candidateform .frame form input::placeholder { 
+    color: #A0A0B2;
+}
+
+#page-candidateform .frame form .field :disabled {
+    cursor: not-allowed;
+}
+
+#page-candidateform .frame form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+#page-candidateform .frame form .field-group input + input {
+    margin-left: 24px;
+}
+
+#page-candidateform .frame form .field-check {
+    flex-direction: row;
+    align-items: center;
+}
+
+#page-candidateform .frame form .field-check input[type=checkbox] {
+    background: #F0F0F5;
+}
+
+#page-candidateform .frame form .field-check label {
+    margin: 0 0 0 8px;
+}
+  
+#page-candidateform .frame form .leaflet-container {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+#page-candidateform .frame form .toolbox {
+    align-self: flex-end;
+}
+
+#page-candidateform .frame form button {
+    width: 119px;
+    height: 46px;    
+    border-radius: 10px;    
+    box-sizing: border-box;
+    margin-left: 8px;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+#page-candidateform .frame form button[type=submit] {
+    background: var(--primary-color);
+    border: 1px solid #3E8F46;
+    color: #FFF;
+}
+
+#page-candidateform .frame form button:hover[type=submit] {
+    background: #3E8F46;
+}
+
+#page-candidateform .frame form .btn-cancel {
+    background: #ECECEC;
+    border: 1px solid #CCCCCC;
+    color: #818181;
+}
+
+#page-candidateform .frame form .btn-cancel:hover {
+    background: #818181;
+    color: #FFF;
+}
+
+#page-candidateform .frame form .items-level {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);    
+    list-style: none;
+}
+  
+#page-candidateform .frame form .items-level li {
+    width: 88px;
+    height: 29px;
+    cursor: pointer;
+    
+    background: #9A82E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    
+    text-align: center;
+}
+
+#page-candidateform .frame form .items-level li.selected {
+    background: #7159C1;
+}
+
+#page-candidateform .frame form .items-level .left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#page-candidateform .frame form .items-level .right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+#page-candidateform .frame form .items-level .left-selected {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #7159C1;
+}
+
+#page-candidateform .frame form .items-level .right-selected {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #7159C1;
+}
+  
+#page-candidateform .frame form .items-level li span {
+    flex: 1;    
+  
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

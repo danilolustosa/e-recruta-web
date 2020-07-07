@@ -127,7 +127,7 @@ const Job = () => {
                             <div className="candidateContent">
                                 <section className="candidateTitle">
                                     <h2>Candidatos</h2>
-                                    <Link to="/jobform">
+                                    <Link to="/candidateform">
                                         <FiPlusSquare />
                                     </Link>
                                 </section>
@@ -139,7 +139,9 @@ const Job = () => {
                                 <section className="grid">
                                     <div className="row">
                                         <section className="candidateName">
-                                            José Augusto da Silva
+                                            <Link to="/candidateform">
+                                                José Augusto da Silva
+                                            </Link>                                            
                                         </section>
                                         <section className="candidateLocation">
                                             São Paulo, SP, Zona Norte
@@ -158,10 +160,12 @@ const Job = () => {
 
                                     <div className="row">
                                         <section className="candidateName">
-                                            José Augusto da Silva
+                                            <Link to="/candidateform">
+                                                Maria de Souza  
+                                            </Link>                                                 
                                         </section>
                                         <section className="candidateLocation">
-                                            São Paulo, SP, Zona Norte
+                                            Sorocaba, SP
                                         </section>
                                         <section className="candidateTool">
                                             <div>
@@ -177,10 +181,12 @@ const Job = () => {
 
                                     <div className="row">
                                         <section className="candidateName">
-                                            José Augusto da Silva
+                                            <Link to="/candidateform">
+                                                Laura Oliveira Gomes
+                                            </Link>                                            
                                         </section>
                                         <section className="candidateLocation">
-                                            São Paulo, SP, Zona Norte
+                                            São Paulo, SP, Morumbi
                                         </section>
                                         <section className="candidateTool">
                                             <div>

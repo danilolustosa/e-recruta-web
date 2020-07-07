@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Jobs from './pages/Jobs';
 import JobForm from './pages/JobForm';
 import Job from './pages/Job';
+import Candidate from './pages/CandidateForm';
 
 const Routes = () => {
     return (
@@ -12,6 +13,7 @@ const Routes = () => {
             <Route component={Jobs} path="/jobs" />
             <Route component={JobForm} path="/jobform" />
             <Route component={Job} path="/job" />
+            <Route component={Candidate} path="/candidateform" />
         </BrowserRouter>
     );
 }

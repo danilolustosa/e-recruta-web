@@ -39,7 +39,7 @@ const Jobs = () => {
                                         <li><span>Pleno</span></li>
                                     </ul>
                                 </div>
-                                <Link to="/">
+                                <Link to="/jobform">
                                     <FiEdit />
                                 </Link>
                             </section>
